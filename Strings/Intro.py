@@ -34,4 +34,4 @@ n = "Tanya Tarun"
 del n
 print(n)
 
-#Deleting a part of string of a string is not possible because it would create changes and strings are immutable.
+#Deleting a part of string of is not possible because it would create changes and strings are immutable.

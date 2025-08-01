@@ -23,7 +23,7 @@ print(list("Tanya"))
 # List takes more time to execute than arrays.
 
 # How are lists stored in memory?
-# So, the elements aof lists are stored at different locations in the memory and the address of those items are stored in contiguous
+# So, the elements of lists are stored at different locations in the memory and the address of those items are stored in contiguous
 # locations then. This is also called referential arrays.
 
 # Characteristics of list
@@ -33,5 +33,22 @@ print(list("Tanya"))
 # can have duplicates
 # can be nested
 # items can be accessed
-# can contain any type of object in python
+# can contain any type of object in python -
+# example -
+l = [1,2,print,type,input]
+print(l)   #this list stores any kind of data/object as in this it stores a built in function - print,type and a class - type.
 # are dynamic
+
+
+# Disadvantages of Python lists
+# Slow
+# Risky usage - because it is mutable
+a = [1,2,3]
+b = a
+print(a)
+print(b)
+a.append(5)
+print(a)
+print(b)   # making changes in a also made changes in b because while assigning a to b, both points to same memory location
+           # and because of that changes in a also makes changes in b. To not let that happen, we can use copy function.
+# Eats up more memory

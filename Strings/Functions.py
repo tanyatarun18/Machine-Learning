@@ -15,8 +15,8 @@ print(b.upper())      # converts every letter of string to uppercase
 print(b.lower())      # converts every letter of string to lowercase
 print('TaNya'.swapcase())   # converts capital letter to lower and lower to capital
 print(a.count('a'))     #gives the count of particular letter from the string.
-print(a.find('Tarun'))  #Gives the index of particular substring. Gives -1 if the substring doesnot exists.
-print(a.index('Tarun'))    # same as find function but throws error if the string doesnot exists unlike find.
+print(a.find('Tarun'))  #Gives the index of particular substring. Gives -1 if the substring does not exists.
+print(a.index('Tarun'))    # same as find function but throws error if the string does not exists unlike find.
 print(a.endswith("n"))
 print(a.startswith('ta'))
 
