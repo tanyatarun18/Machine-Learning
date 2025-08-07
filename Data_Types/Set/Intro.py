@@ -1,7 +1,7 @@
 # A set is an unordered collection of items. Every set element is unique (no duplicate) and must be immutable.
 # This means sets are mutable but cannot contain mutable data type element with it (e.g, set cannot contain list or a set.
 # like there cannot be a 2d set bcz 2d set is a set within set and set is mutable).
-# Sets can be used to perform mathematical operations like unio, intersection, symmetric,difference, etc.
+# Sets can be used to perform mathematical operations like union, intersection, symmetric,difference, etc.
 # Characteristics:
 # Unordered
 # Mutable
@@ -18,7 +18,7 @@ print(type(s1))     # prints set
 
 # 1D or 2D(2d not possible)
 s2 = {1,2,3}     # homogeneous 1D set
-s3 = {1,'a',2,'b'}      # heter ogeneous 1D set
+s3 = {1,'a',2,'b'}      # heterogeneous 1D set
 s4 = {1,'a',2,'b', True}
 # will only print 4 elements not True cz duplicates not allowed and python treats true as 1 and 1 is already there.
 print(s2)
